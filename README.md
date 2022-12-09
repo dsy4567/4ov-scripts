@@ -4,13 +4,49 @@
 
 # HTML 代码片段被用来做什么
 
-它们会被 [4399 on vscode](https://github.com/dsy4567/4399-on-vscode) 注入 `webview` 里, 用来优化游戏体验, 以及为 [4399 on vscode](https://github.com/dsy4567/4399-on-vscode) 添加新功能
+它们会被 [4399 on vscode](https://github.com/dsy4567/4399-on-vscode) 注入
+`webview` 里, 用来优化游戏体验, 以及为
+[4399 on vscode](https://github.com/dsy4567/4399-on-vscode) 添加新功能
 
 # 快速上手
 
 ```html
+<!-- foobar.html -->
+<!--
+
+版权声明
+===license===
+XXX LICENSE
+
+Copyright (c) <year> <your name>
+
+balalalalalalalalalala...
+===/license/===
+
+
+清单声明
+===manifest===
+{
+    "author": "https://githbu.com/xxx",
+    "description": "balalalalalalalalalala...",
+    "id": "xxx.foobar",
+    "name": "foobar"
+}
+
+===/manifest/===
+
+-->
+
 <script>
+    // 常量
+    FULL_WEB_SERVER_URI; // 详见 https://code.visualstudio.com/api/advanced-topics/remote-extensions#option-1-use-asexternaluri
 
+    // 打开链接(任选一个)
+    fetch("/openUrl/https://www.4399.com/");
+    fetch("/openUrl/https://www.4399.com/flash/114514.htm"); // 直接启动游戏
+    open("https://www.4399.com/"); // 4399 on vscode 已经帮你重写了这个函数, 等效于 fetch("/openUrl/https://www.4399.com/")
+
+    // 代理, 仅支持 GET 请求
+    fetch("/proxy/https://www.4399.com/");
 </script>
-
 ```
