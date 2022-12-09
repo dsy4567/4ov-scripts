@@ -48,5 +48,12 @@ balalalalalalalalalala...
 
     // 代理, 仅支持 GET 请求
     fetch("/proxy/https://www.4399.com/");
+
+    console.log("Hello world!");
 </script>
+<style>
+    .myDiv{
+        color: #66ccff;
+    }
+</style>
 ```
