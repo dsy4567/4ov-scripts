@@ -32,7 +32,6 @@ balalalalalalalalalala...
     "id": "xxx.foobar",
     "name": "foobar"
 }
-
 ===/manifest/===
 
 -->
