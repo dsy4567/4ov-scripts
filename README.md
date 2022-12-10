@@ -1,4 +1,4 @@
-# 4ov-scripts
+# [4ov-scripts](https://github.com/dsy4567/4ov-scripts)
 
 [4399 on vscode](https://github.com/dsy4567/4399-on-vscode) 的 HTML 代码片段仓库
 
