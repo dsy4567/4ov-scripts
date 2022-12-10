@@ -14,6 +14,8 @@
 
 将 `.html` 文件保存到 `<主目录>/.4ov-data/html-scripts/` 文件夹下
 
+> 在 Windows 系统下, 你可以通过按 <kbd>Windows 徽标键</kbd> + <kbd>R</kbd>, 然后输入 `%USERPROFILE%` 来打开主目录
+
 # 快速上手
 
 > 注: 非贡献者无需阅读以下内容
