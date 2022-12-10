@@ -61,7 +61,8 @@ balalalalalalalalalala...
 1. fork 这个仓库
 2. 在仓库根目录下创建一个文件夹, 名字随便
 3. 在这个文件夹里创建 `LICENSE`, `README.md`, `<dir-name>.html` 以及其他必要的文件
-4. 发个 PR, 等待合并
+4. 修改 `download.html`
+5. 发个 PR, 等待合并
 
 # 安装
 
