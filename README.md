@@ -8,6 +8,12 @@
 `webview` 里, 用来优化游戏体验, 以及为
 [4399 on vscode](https://github.com/dsy4567/4399-on-vscode) 添加新功能
 
+# 安装
+
+访问 https://dsy4567.github.io/4ov-scripts/download.html
+
+将 `.html` 文件保存到 `<主目录>/.4ov-data/html-scripts/` 文件夹下
+
 # 快速上手
 
 ```html
@@ -64,8 +70,3 @@ balalalalalalalalalala...
 4. 修改 `download.html`
 5. 发个 PR, 等待合并
 
-# 安装
-
-访问 https://dsy4567.github.io/4ov-scripts/download.html
-
-将 `.html` 文件保存到 `<主目录>/.4ov-data/html-scripts/` 文件夹下
