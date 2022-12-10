@@ -61,4 +61,8 @@ balalalalalalalalalala...
 1. fork 这个仓库
 2. 在仓库根目录下创建一个文件夹, 名字随便
 3. 在这个文件夹里创建 `README.md` 和 `<dir-name>.html` 文件
-4. 发个 PR
+4. 发个 PR, 等待合并
+
+# 安装
+
+将 `.html` 文件保存到 `<主目录>/.4ov-data/scripts/` 文件夹下
