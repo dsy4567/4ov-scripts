@@ -65,4 +65,4 @@ balalalalalalalalalala...
 
 # 安装
 
-将 `.html` 文件保存到 `<主目录>/.4ov-data/scripts/` 文件夹下
+将 `.html` 文件保存到 `<主目录>/.4ov-data/html-scripts/` 文件夹下
