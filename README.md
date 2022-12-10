@@ -66,4 +66,6 @@ balalalalalalalalalala...
 
 # 安装
 
+访问 https://dsy4567.github.io/4ov-scripts/download.html
+
 将 `.html` 文件保存到 `<主目录>/.4ov-data/html-scripts/` 文件夹下
