@@ -37,7 +37,7 @@ balalalalalalalalalala...
 清单声明
 ===manifest===
 {
-    "author": "https://githhub.com/xxx",
+    "author": "https://github.com/xxx",
     "description": "balalalalalalalalalala...",
     "id": "xxx.foobar",
     "name": "foobar"
