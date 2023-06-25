@@ -22,6 +22,7 @@
 
 ```html
 <!-- foobar.html -->
+
 <!--
 
 XXX LICENSE
@@ -33,7 +34,9 @@ balalalalalalalalalala...
 -->
 
 <!--
+
 <head>...
+
 -->
 
 <script>
@@ -54,7 +57,9 @@ balalalalalalalalalala...
 </style>
 
 <!--
+
 ...</head>
+
 -->
 
 ```
