@@ -10,7 +10,7 @@
 
 # 安装
 
-访问 https://dsy4567.cf/4ov-scripts/download.html
+访问 <https://dsy4567.github.io/4ov-scripts/download.html>
 
 将 `.html` 文件保存到 `<主目录>/.4ov-data/html-scripts/` 文件夹下
 
@@ -24,25 +24,11 @@
 <!-- foobar.html -->
 <!--
 
-版权声明
-===license===
 XXX LICENSE
 
 Copyright (c) <year> <your name>
 
 balalalalalalalalalala...
-===/license/===
-
-
-清单声明
-===manifest===
-{
-    "author": "https://github.com/xxx",
-    "description": "balalalalalalalalalala...",
-    "id": "xxx.foobar",
-    "name": "foobar"
-}
-===/manifest/===
 
 -->
 
@@ -75,7 +61,7 @@ balalalalalalalalalala...
 # 发布
 
 1. fork 这个仓库
-2. 在仓库根目录下创建一个文件夹, 名字随便
+2. 在仓库根目录下创建一个文件夹, 名字随便（尽量不要包含空格或特殊字符）
 3. 在这个文件夹里创建 `LICENSE`, `README.md`, `<dir-name>.html` 以及其他必要的文件
 4. 修改 `download.html`
 5. 发个 PR, 等待合并
