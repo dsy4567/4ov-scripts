@@ -45,7 +45,7 @@ balalalalalalalalalala...
     fetch("/openUrl/https://www.4399.com/flash/114514.htm"); // 直接启动游戏
     open("https://www.4399.com/"); // 4399 on vscode 已经帮你重写了这个函数, 等效于 fetch("/openUrl/https://www.4399.com/")
 
-    // 代理, 仅支持 GET 方法和 HTTPS 协议
+    // 跨域代理（4399.com 域会带上 cookies）, 仅支持 GET 方法和 HTTPS 协议
     fetch("/proxy/https://www.4399.com/");
 </script>
 <style>
