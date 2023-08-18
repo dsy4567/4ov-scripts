@@ -10,7 +10,16 @@
 
 ## 安装
 
+### 0.3.3 及更早版本
+
 访问 <https://dsy4567.github.io/4ov-scripts/download.html>，将 `.html` 文件保存到 `<主目录>/.4ov-data/html-scripts/` 文件夹下，然后打开 VSCode 设置页，在搜索框中输入 `@id:4399-on-vscode.scripts` 并修改设置
+
+### 0.3.4 及更新版本
+
+命令面板 > 4399 on VSCode: 更多选项 > 管理 HTML 代码片段
+
+手动安装：访问 <https://dsy4567.github.io/4ov-scripts/download.html>，将 `.html` 文件保存到 `<主目录>/.4ov-data/html-scripts/` 文件夹下，然后打开 VSCode 设置页，在搜索框中输入 `@id:4399-on-vscode.htmlScripts` 并修改设置
+
 
 > 在 Windows 系统下, 你可以通过按 <kbd>Windows 徽标键</kbd> + <kbd>R</kbd>, 然后输入 `%USERPROFILE%` 来打开主目录
 
