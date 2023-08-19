@@ -1,5 +1,5 @@
 <script>
-/*
+    /*
 
 This is free and unencumbered software released into the public domain.
 
@@ -29,21 +29,21 @@ For more information, please refer to <https://unlicense.org>
 */
 
     addEventListener("load", () => {
-        h5api._4ov_playAd = h5api.playAd
+        h5api._4ov_playAd = h5api.playAd;
         h5api.playAd = function (cb) {
             fetch("/_4ov/confirm?reason=某个游戏想要播放激励广告")
-            .then(res => {
-                if (res.status == 403)
-                    cb({
-                        code: -1,
-                        message: "[4399 on VSCode] 用户已拒绝播放激励广告",
-                    });
-                else h5api._4ov_playAd(cb);
-            })
-            .catch(e => {
-                console.error(e);
-                h5api._4ov_playAd(cb);
-            });
+                .then(res => {
+                    if (res.status == 403)
+                        cb({
+                            code: -1,
+                            message: "[4399 on VSCode] 用户已拒绝播放激励广告",
+                        });
+                    else h5api._4ov_playAd(cb);
+                })
+                .catch(e => {
+                    console.error(e);
+                    h5api._4ov_playAd(cb);
+                });
         };
     });
 </script>
