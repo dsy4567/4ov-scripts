@@ -29,6 +29,7 @@ For more information, please refer to <https://unlicense.org>
 */
 
     addEventListener("DOMContentLoaded", () => {
+        if (location.pathname.includes("_4ov-flash-player.htm")) return;
         document.body.insertAdjacentHTML(
             "beforeend",
             '<div id="AntiIndulgence" style="z-index: 9999; width: 100%; height: 100%; position: absolute; top: 0; display: none; background-color: #000; color: #fff;"></div>'
